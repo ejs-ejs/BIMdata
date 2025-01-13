@@ -265,7 +265,7 @@ loin:
             - examples:
               - SP-TS-5.3
           - Ifc__Power
-          - Aplinkos agresyvumo klasė: &id017
+          - Aplinkos agresyvumo klasė:
             - examples:
               - XC1
             - units: Tekstas
@@ -4531,13 +4531,11 @@ loin:
               - 10
             - units: m³
             - descr: Elemento tūris, m³
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
+          - Aplinkos agresyvumo klasė:
+            - examples:
                 - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+            - units: Tekstas
+            - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
           lod: 300
       id: Atraminė siena
     - classifications:
@@ -4611,13 +4609,9 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė:
+            - examples:
+              - XC1
           lod: 300
       id: Siena
     - classifications:
@@ -4687,13 +4681,9 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė:
+            - examples:
+              - XC1
           lod: 300
       id: Santvara
     - classifications:
@@ -4773,13 +4763,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Kolona
     - classifications:
@@ -4854,13 +4838,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Sija
       examples:
@@ -4943,13 +4921,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Plokštė
       examples:
@@ -5028,13 +5000,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Tarpinė aikštelė
     - classifications:
@@ -5108,13 +5074,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Laiptatakis
     - classifications:
@@ -5184,14 +5144,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė  (jei taikoma)'
-            : &id029
-            - examples:
-              - XC1
-            - units: Tekstas
-            - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Blokas (Pamatai)
       examples:
@@ -5255,9 +5208,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - Aplinkos agresyvumo klasė:
-            - examples:
-                - XC1
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Polis (Pamatai)
     - classifications:
@@ -5375,13 +5326,7 @@ loin:
               - 6750
             - units: kg
             - descr: Elemento svoris
-          - ? 'Aplinkos agresyvumo
-
-              klasė  (jei taikoma)'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Grindų dangos pasluosnių konstrukcija
       examples:
@@ -5564,13 +5509,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Siena
     - classifications:
@@ -5650,13 +5589,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Kolona
     - classifications:
@@ -5736,13 +5669,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Plokštė
       examples:
@@ -5821,13 +5748,7 @@ loin:
             - examples:
               - R90 (REI60)
             - units: Tekstas
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Laiptatakis
     - id: Gruntinis inkaras
@@ -5889,507 +5810,332 @@ loin:
             - examples:
               - R 90
               - R 60
-          - Aplinkos agresyvumo klasė:
-            - examples:
-                - XC1
+          - Aplinkos agresyvumo klasė
           lod: 300
       
-  VN:
-    elements: []
   VN.V:
     elements:
-    - classifications:
+    - id: Izoliacija
+      classifications:
         NSIK LF: D
         NSIK LT: BE
         NSIK LK: RQA
       stages:
         s3:
+          lod: 300
           properties:
           - Aukštas:
             - examples:
               - Stogas
           - Name:
             - examples:
-              - Šiluminė izoliacija
-            - descr: Sutrumpintas pavadinimas modelio erdvėje (pagal tipą)
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - descr: Elemento būsena
+              - Antikondensacinė izoliacija
+              - Akmens vatos kevalas
+            - descr: Trumpas pavadinimas modelyje, jeidžianti identifikuoti tipą
+          - VVK.State
           - Type:
             - examples:
-              - I-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
+              - I-10
           - VVK.Material:
             - examples:
-              - EPS100
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
+              - Akmens vats, padengta aliuminio folija
+              - Poliuretanas
+            - memo: Pildoma, jei tokia savybė aktuali
             - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+          - Pset_ConstructionAdministration.SpecificationSectionNumber:
+            - examples:
+            - VN.V-TS-1.2
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Ifc__.Depth:
             - examples:
               - 150
-            - units: mm
-            - descr: Storis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
           - Ifc__.Area:
             - examples:
               - 100
-            - units: m²
-            - descr: Elemento plotas, m²
-          lod: 300
-      id: Izoliacija
-    - classifications:
+    
+    - id: Vamzdis
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: WPA
       stages:
         s3:
+          lod: 300
           properties:
           - Aukštas:
             - examples:
               - 1 aukštas
-            - units: Tekstas
           - Name:
             - examples:
-              - Daugiasluoksniai vamzdžiai, plieniniai vamzdžiai
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+              - Daugiasluoksnis vamzdis
+              - Plieninis cinkuotas vamzdžis
+              - Plieninis besiūlis vamzdis
+          - VVK.State
           - Type:
             - examples:
               - DV-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
               - Nerūdijantis plienas
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - examples:
+              - Gruntuojamas, dažomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VN.V-TS-1.2
           - Ifc__.Length:
             - examples:
               - 5000
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Diametras:
             - examples:
               - 50
-            - units: mm
-            - descr: Gaminio diametras
-          lod: 300
-      id: Vamzdis
-    - classifications:
+      
+    - id: Bidė
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: XKA
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Higieninis dušas
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - BD-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
               - Keramika
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VN.V-TS-1.2
           - Ifc__.Heigth:
             - examples:
               - 500
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 450
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
-              - 450
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
-          lod: 300
-      id: Bidė
-    - classifications:
+              - 450          
+      
+    - id: Skysčio reguliavimo vožtuvas
+      examples:
+      - Čiaupas
+      - maišytuvas
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: QNA
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Vandens čiaupas
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - ČP-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
-              - Keramika
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+              - Bronza
+            - memo: Pildoma, jei tokia savybė aktuali
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - memo: Pildoma, jei tokia savybė aktuali
+            - examples:
+              - Chromuotas
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VN.V-TS-1.2
           - Ifc__.Heigth:
             - examples:
               - 154
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 126
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 39
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Diametras:
             - examples:
               - 20
-            - units: mm
             - descr: Pajungimo diametras
-          lod: 300
-      id: Skysčio reguliavimo vožtuvas
+      
+    - id: Srauto energijos skaitiklis
       examples:
-      - Čiaupas
-      - maišytuvas
-    - classifications:
+      - Karšto vandens skaitiklis
+      - vandens apskaitos prietaisas
+      - šalto vandens skaitiklis
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: BHA
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Šalto vandens skaitiklis
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - VSK-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
               - Žalvaris
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VN.V-TS-1.2
           - Ifc__.Length:
             - examples:
               - 110
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Diametras:
             - examples:
               - 20
-            - units: mm
             - descr: Pajungimo diametras
-          lod: 300
-      id: Srauto energijos skaitiklis
+      
+    - id: Išardoma jungtis
       examples:
-      - Karšto vandens skaitiklis
-      - vandens apskaitos prietaisas
-      - šalto vandens skaitiklis
-    - classifications:
+      - Flanšinės
+      - Suveržiama jungtis
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: XMA
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Flanšinė alkūnė
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - FD-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
               - Kalusis ketus
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - memo: Pildoma, jei tokia savybė aktuali
+            - examples:
+              - Gruntuojama, dažoma
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VN.V-TS-1.2
           - Diametras:
             - examples:
-              - 20
-            - units: mm
+              - 250
             - descr: Pajungimo diametras
-          lod: 300
-      id: Išardoma jungtis
+          
+    - id: Neišardoma jungtis
       examples:
-      - Flanšinės
-      - fasoninės dalys
-    - classifications:
+      - Presuojamas trišakis
+      - Virinama  alkūnė
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: XMB
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Presuojama alkūnė
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - FD-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
               - Plastikas
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
           - VVK.Colour:
+            - memo: Pildoma, jei tokia savybė aktuali
+          - Apdaila:
+            - memo: Pildoma, jei tokia savybė aktuali
             - examples:
-              - Žr. TS
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+              - Gruntuojama, dažoma
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VN.V-TS-1.2
           - Diametras:
             - examples:
               - 32
-            - units: mm
             - descr: Pajungimo diametras
-          lod: 300
-      id: Neišardoma jungtis
+          
+    - id: Skysčių vožtuvas, sklendė
       examples:
-      - Presuojamos
-      - virinamos fasoninės dalys
-    - classifications:
+      - Apsauginis vožtuvas
+      - apsauginė skysčio sklendė
+      classifications:
         NSIK LF: F
         NSIK LT: JB
         NSIK LK: QNA
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
-              - Apsauginis vožtuvas, sklendė
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+              - Apsauginis vožtuvas
+              - Sklendė
+          - VVK.State
           - Type:
             - examples:
               - AV-1
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
             - examples:
               - Žalvaris
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Apdaila:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento apdaila
+            - memo: Pildoma, jei tokia savybė aktuali
+            - examples:
+              - Chromuotas
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant
-                spalvyną ir spalvos pavadinimą, jei žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - TS 1.2
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - VNN.V-TS-1.2
           - Diametras:
             - examples:
               - 20
-            - units: mm
             - descr: Pajungimo diametras
-          lod: 300
-      id: Skysčių vožtuvas, sklendė
-      examples:
-      - Apsauginis vožtuvas
-      - apsauginė skysčio sklendė
+      
     - classifications:
         NSIK LF: F
         NSIK LT: JB
@@ -14912,14 +14658,7 @@ loin:
             - memo: Pildoma projektuotojo, jei yra tokia savybė
             - units: Tekstas
             - descr: A1 degumo klasė
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - memo: Pildoma projektuotojo, jei yra tokia savybė
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Laboratorijos (gamtos mokslų) įranga
     - classifications:
@@ -15356,13 +15095,7 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Baseino starto bokštelis
       description: Sporto įranga
@@ -15432,13 +15165,7 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Laiko jutimo komponentas
       description: Laiko jutimo komponentas su skaliariniu išėjimu.
@@ -15512,13 +15239,7 @@ loin:
               - 160
             - units: mm
             - descr: Prijungimo prie tinklų diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Trapas
       description: Skysčio perteklių surenkantis komponentas su hidrauline užtvara.
@@ -15593,13 +15314,7 @@ loin:
               - 25
             - units: mm
             - descr: Prijungimo prie teikimo tinklų diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Dugno purkštukas
       description: Skysčio srautą formuojantis, praleidžiantis ir maišantis įrenginys
@@ -15670,13 +15385,7 @@ loin:
               - 50
             - units: mm
             - descr: Prijungimo prie teikimo tinklų diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Išardoma jungtis
       description: Išardoma vamzdyno jungtis, sujungianti uždarą srautą.
@@ -15748,13 +15457,7 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Ekranas
       description: Grafinio vaizdavimo įtaisas, skirtas atvaizduoti dinaminę informaciją
@@ -15764,12 +15467,21 @@ loin:
       examples:
       - Švieslentė rodanti laiką
       - oro ir vandens temepratūrą
-    - classifications:
+    - id: Elektros lempa (baseinui ir renginių salei)
+      description: Šviesos komponentas, naudojantis elektros energiją.
+      memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
+        susikirtimus su kitomis projekto dalimis.
+      examples:
+      - Baseino šviestuvas ir šviesos šaltinis
+      - šviesos efektų lazeris
+      - sceniniai prožektoriai
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: PHA
       stages:
         s3:
+          lod: 300
           properties:
           - Aukštas:
             - examples:
@@ -15830,22 +15542,8 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 300
-      id: Elektros lempa (baseinui ir renginių salei)
-      description: Šviesos komponentas, naudojantis elektros energiją.
-      memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
-        susikirtimus su kitomis projekto dalimis.
-      examples:
-      - Baseino šviestuvas ir šviesos šaltinis
-      - šviesos efektų lazeris
-      - sceniniai prožektoriai
+          - Aplinkos agresyvumo klasė
+               
     - classifications:
         NSIK LF: S
         NSIK LT: RC
@@ -15912,13 +15610,7 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Automatinis dujų srauto reguliatorius
       description: Inžinerinis įrenginys, automatiniu būdu reguliuojantis dujų srautą.
@@ -15991,13 +15683,7 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Valdymo blokas
       description: Valdymo blokas
@@ -16070,13 +15756,7 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Šilumokaitis
       description: Šildymo ir (arba) vėsinimo prietaisas, perduodantis šilumnešio
@@ -16150,432 +15830,237 @@ loin:
             - units: mm
             - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
                 m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
       id: Dalelių generatorius
       description: Nejonizuojančiosios spinduliuotės proceso metu daleles skleidžiantis
         komponentas.
       memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
         susikirtimus su kitomis projekto dalimis.
-    - classifications:
+    - id: Kompresorius
+      description: Komponentas dujoms, orui arba garui suslėgti ir generuoti atitinkamų
+        savybių šių medžiagų srautą.
+      memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
+        susikirtimus su kitomis projekto dalimis.
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: EUB
       stages:
         s3:
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Kompresorius su oro rinktuvu
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - OK-01
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Elemento spalva, nurodant spalvyną ir spalvos pavadinimą, jei
-                žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
               - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
           - Galingumas:
             - examples:
               - 150
-            - memo: Elektrinė galia
-            - units: W
-            - descr: Elemento projektinė galia. Elektriniams prietaisams - elektrinė
-                galia, šiluminiams ir jiems prilygintims - šiluminė galia
           - Ifc__.Heigth:
             - examples:
               - 800
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 600
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 400
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Volume:
             - examples:
               - 0.1
-            - units: m³
-            - descr: Oro rinktuvo tūris, m³
           - Diametras:
             - examples:
               - 25
-            - units: mm
             - descr: Prijungimo prie vamzyno diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
-      id: Kompresorius
-      description: Komponentas dujoms, orui arba garui suslėgti ir generuoti atitinkamų
-        savybių šių medžiagų srautą.
+      
+    - id: Kolektorius
+      description: Dviejų ir daugiau atšakų (žiedų) fluido paskirstymo komponentas.
       memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
         susikirtimus su kitomis projekto dalimis.
-    - classifications:
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: '%XME1010'
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Filtro kolektorius
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - VKV-01
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Elemento spalva, nurodant spalvyną ir spalvos pavadinimą, jei
-                žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
               - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
           - Ifc__.Heigth:
             - examples:
               - 800
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 600
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 400
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Diametras:
             - examples:
               - 75
-            - units: mm
-            - descr: Prijungimo prie vamzyno diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 300
-      id: Kolektorius
-      description: Dviejų ir daugiau atšakų (žiedų) fluido paskirstymo komponentas.
+          
+      
+    - id: Teigiamo darbinio tūrio siurblys
+      description: Skysčio srautą sukuriantis komponentas, perkeliantis įtrauktą skystį
+        į išleidimo angą.
       memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
         susikirtimus su kitomis projekto dalimis.
-    - classifications:
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: GPA
       stages:
         s3:
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Skysčio siurblys
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - OK-01
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Elemento spalva, nurodant spalvyną ir spalvos pavadinimą, jei
-                žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
               - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
           - Galingumas:
             - examples:
               - 4500
             - memo: Elektrinė galia
-            - units: W
-            - descr: Elemento projektinė galia. Elektriniams prietaisams - elektrinė
-                galia, šiluminiams ir jiems prilygintims - šiluminė galia
           - Ifc__.Heigth:
             - examples:
               - 800
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 600
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 400
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Diametras:
             - examples:
               - 125
-            - units: mm
-            - descr: Prijungimo prie vamzyno diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
+          - Aplinkos agresyvumo klasė
           lod: 300
-      id: Teigiamo darbinio tūrio siurblys
-      description: Skysčio srautą sukuriantis komponentas, perkeliantis įtrauktą skystį
-        į išleidimo angą.
+      
+    - id: Skysčių filtras
+      description: Skysčių mechaninio valymo filtras.
       memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
         susikirtimus su kitomis projekto dalimis.
-    - classifications:
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: '%HQB20'
       stages:
         s3:
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Filtras
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - BVF-02
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Elemento spalva, nurodant spalvyną ir spalvos pavadinimą, jei
-                žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - T-TS-2.3
           - Ifc__.Heigth:
             - examples:
               - 2000
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 1800
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 1800
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Volume:
             - examples:
               - 3.2
-            - units: m³
             - descr: Oro rinktuvo tūris, m³
           - Diametras:
             - examples:
               - 75
-            - units: mm
             - descr: Prijungimo prie vamzyno diametras
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 300
-      id: Skysčių filtras
-      description: Skysčių mechaninio valymo filtras.
-      memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
-        susikirtimus su kitomis projekto dalimis.
-    - classifications:
+          - Aplinkos agresyvumo klasė
+          lod: 300  
+    
+    - id: Korpusas
+      description: Gaubtas, skirtas mechanizmams ar jų dalims apsaugoti nuo išorinio poveikio bei užtikrinti žmonių saugumą (taip pat ir nuo kontakto su elektros srove).
+      memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti susikirtimus su kitomis projekto dalimis.
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: UCA
       stages:
         s3:
+          lod: 300
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - AV įrangos spinta
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
+          - Tag
           - Type:
             - examples:
               - RS-03
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Elemento spalva, nurodant spalvyną ir spalvos pavadinimą, jei
-                žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - T-TS-2.3
           - Galingumas:
             - examples:
               - 3500
-            - units: W
-            - descr: Maksimali instaliuota elektrinė galia
+            - descr: Maksimali korpuse instaliuotos įrengos elektrinė galia
           - Ifc__.Heigth:
             - examples:
               - 2200
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 850
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 850
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 300
-      id: Korpusas
-      description: Gaubtas, skirtas mechanizmams ar jų dalims apsaugoti nuo išorinio
-        poveikio bei užtikrinti žmonių saugumą (taip pat ir nuo kontakto su elektros
-        srove).
-      memo: Elemento geometrija tur būti tokia, kad būtų galima užtikrintai tikrinti
-        susikirtimus su kitomis projekto dalimis.
+          - Aplinkos agresyvumo klasė
+      
         
     # - id: Signalų komutacinė panelė
       # memo: Apytikslis elemento ribojantis tūris
@@ -16605,313 +16090,178 @@ loin:
       
 
 
-    - classifications:
+    - id: Vaizdo kamera
+      description: Vaizdo jutiklis aplinkos judantiems vaizdams fiksuoti.
+      memo: Apytikslis elemento ribojantis tūris
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: '%BXC20'
       stages:
         s3:
+          lod: 200
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - PTZ kamera
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - VK-03
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - T-TS-2.3
           - Galingumas:
             - examples:
               - 50
-            - units: W
-            - descr: Maksimali naudojama elektrinė galia, jei didesnė kaip 25W
           - Ifc__.Heigth:
             - examples:
               - 60
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 200
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 60
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
+          - Aplinkos agresyvumo klasė
 
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 200
-      id: Vaizdo kamera
-      description: Vaizdo jutiklis aplinkos judantiems vaizdams fiksuoti.
+    - id: Garsiakalbis
+      description: Judančios membranos principu veikiantis akustinis prietaisas.
       memo: Apytikslis elemento ribojantis tūris
-    - classifications:
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: PJA
       stages:
         s3:
+          lod: 200
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Žemų dažnių garsiakalbis
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - ŽDG-01
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - VVK.Colour:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Elemento spalva, nurodant spalvyną ir spalvos pavadinimą, jei
-                žinomas
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - T-TS-2.3
           - Galingumas:
             - examples:
               - 50
-            - units: W
             - descr: Maksimali galia (RMS)
           - Ifc__.Heigth:
             - examples:
               - 600
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 600
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 400
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 200
-      id: Garsiakalbis
-      description: Judančios membranos principu veikiantis akustinis prietaisas.
+          - Aplinkos agresyvumo klasė
+          
+    - id: Ekranas
+      description: Grafinio vaizdavimo įtaisas, skirtas atvaizduoti dinaminę informaciją ant savo paviršiaus.
       memo: Apytikslis elemento ribojantis tūris
-    - classifications:
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: PHA
       stages:
         s3:
+          lod: 200
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Ekranas
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - VK-03
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - examples:
+              - Antpirenuose išmirkyta drobė
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - T-TS-2.3
           - Galingumas:
             - examples:
               - 50
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: W
-            - descr: Maksimali naudojama elektrinė galia
+            - memo: Susijusios elektro įrangos galia
           - Ifc__.Heigth:
             - examples:
               - 3500
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 80
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 4600
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
-
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 200
-      id: Ekranas
-      description: Grafinio vaizdavimo įtaisas, skirtas atvaizduoti dinaminę informaciją
-        ant savo paviršiaus.
+          - Aplinkos agresyvumo klasė
+          
+    - id: Projektorius
+      description: Grafinio vaizdavimo įtaisas, skirtas atvaizduoti dinaminei informacijai
+        ant kito paviršiaus.
       memo: Apytikslis elemento ribojantis tūris
-    - classifications:
+      classifications:
         NSIK LF: S
         NSIK LT: RC
         NSIK LK: PHB
       stages:
         s3:
+          lod: 200
           properties:
-          - Aukštas:
-            - examples:
-              - 1 aukštas
-            - units: Tekstas
+          - Aukštas
           - Name:
             - examples:
               - Vaizdo projektorius su standartiniu lęšiu, 10.000 liumenų
-            - units: Tekstas
-            - descr: Elemento pavadinimas
-          - VVK.State:
-            - examples:
-              - Projektuojamas
-            - units: Tekstas
-            - descr: Elemento būsena
+          - VVK.State
           - Type:
             - examples:
               - VP-01
-            - units: Tekstas
-            - descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit
-                Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas
-                medžiagų ir kiekių žiniaraščiuose
           - VVK.Material:
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: Tekstas
-            - descr: Pagrindinė elemento medžiaga
+            - memo: Pildoma, jei tokia savybė aktuali
           - Pset_ConstructionAdministration.SpecificationSectionNumber:
             - examples:
-              - T-TS 2.3
-            - units: Tekstas
-            - descr: Techninės specifikacijos Nr.
+              - T-TS-2.3
           - Galingumas:
             - examples:
               - 250
-            - memo: Pildoma projektuotojo, jei yra tokia savybė
-            - units: W
-            - descr: Maksimali naudojama elektrinė galia
           - Ifc__.Heigth:
             - examples:
               - 120
-            - units: mm
-            - descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
           - Ifc__.Length:
             - examples:
               - 300
-            - units: mm
-            - descr: Gaminio ilgis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai
-                skaitmenys)
           - Ifc__.Width:
             - examples:
               - 300
-            - units: mm
-            - descr: Gaminio plotis arba storis, mm (0 dešimtainių skaitmenų) arba
-                m (3 dešimtainiai skaitmenys)
-          - ? 'Aplinkos agresyvumo
+          - Aplinkos agresyvumo klasė
 
-              klasė'
-            : - examples:
-                - XC1
-              - units: Tekstas
-              - descr: XO, XC1  Aplinkos agresyvumo klasė  (jei taikoma)
-          lod: 200
-      id: Projektorius
-      description: Grafinio vaizdavimo įtaisas, skirtas atvaizduoti dinaminei informacijai
-        ant kito paviršiaus.
-      memo: Apytikslis elemento ribojantis tūris
 properties:
   Name: 
     type: IfcLabel
     examples:
     - Gumos danga
     units: String
-    descr: Elemento pavadinimas
+    description: Elemento pavadinimas
   
   VVK.State:
     type: IfcLabel
     examples:
       - Projektuojamas
     units: String
-    descr: Elemento būsena
+    description: Elemento būsena
     allowedValues:
       - esamas
       - demontuojamas
@@ -16923,7 +16273,7 @@ properties:
     examples:
       - L1
     units: String
-    descr: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas medžiagų ir kiekių žiniaraščiuose
+    description: Elemento tipo unikalus kodas, sudarytas iš elemento tipo (Revit Type Mark) ir elemento bendrinio pavadinimo, kuris turės būti naudojamas medžiagų ir kiekių žiniaraščiuose
     
   VVK.Material:
     type: IfcLabel
@@ -16931,7 +16281,7 @@ properties:
       - Guma
     memo: Pildoma, jei tokia savybė aktuali
     units: String
-    descr: Pagrindinė elemento medžiaga
+    description: Pagrindinė elemento medžiaga
     
   Apdaila:
     type: IfcLabel
@@ -16940,16 +16290,16 @@ properties:
       - Glaistomas, dažomas
     memo: Pildoma, jei tokia savybė aktuali
     units: String
-    descr: Pagrindinė elemento apdaila
+    description: Pagrindinė elemento apdaila
     
   VVK.Colour:
     type: IfcLabel
     examples:
-      - "RAL 9003 'Signal white'"
+      - RAL 9003 'Signal white'
       - NCS S-1005-Y
     memo: Pildoma, jei tokia savybė aktuali
     units: String
-    descr: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant spalvyną ir spalvos pavadinimą, jei žinomas
+    description: Dažomo elemento arba jo išorinės ar vidinės pusės spalva, nurodant spalvyną ir spalvos pavadinimą, jei žinomas
     
   Pset_ConstructionAdministration.SpecificationSectionNumber:
     type: IfcLabel
@@ -16957,7 +16307,7 @@ properties:
       - SA-TS-1.1
       - SA-TS-C.BA.%CDD1042
     units: String
-    descr: Techninės specifikacijos numeris, nurodant projekto dalį
+    description: Techninės specifikacijos numeris, nurodant projekto dalį
     
   Ifc__.Depth:
     type: IfcLengthMeasure
@@ -16965,7 +16315,7 @@ properties:
       - 120
       - 5.600
     units: Real
-    descr: Elemento storis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
+    description: Elemento storis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
 
   Ifc__.Area:
     type: IfcAreaMeasure
@@ -16973,7 +16323,7 @@ properties:
       - 4.20
       - 0.42
     units: Real
-    descr: Elemento plotas, m²
+    description: Elemento plotas, m²
     
   Tag:
     type: IfcLabel
@@ -16982,7 +16332,7 @@ properties:
     - K-01
     - AHU-42
     units: String
-    descr: Elemento tipo žymuo
+    description: Elemento tipo žymuo
     
   Ifc__.Heigth:
     type: IfcLengthMeasure
@@ -16993,7 +16343,7 @@ properties:
     examples:
       - 4000
       - 1.520
-    descr: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
+    description: Gaminio aukštis arba storis, mm  (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
                 
   Ifc__.Diameter:
     type: IfcLengthMeasure
@@ -17001,7 +16351,7 @@ properties:
       - 600
       - 0.600
     units: Real
-    descr: Gaminio diametras
+    description: Gaminio diametras
     
   Ifc__.Length:
     ype: IfcLengthMeasure
@@ -17009,7 +16359,7 @@ properties:
       - 1600
       - 1.600
     units: Real
-    descr: Gaminio ilgis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
+    description: Gaminio ilgis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
 
   Ifc__.Width:
     type: IfcLengthMeasure
@@ -17017,7 +16367,7 @@ properties:
       - 80
       - 0.800
     units: Real
-    descr: Gaminio plotis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
+    description: Gaminio plotis, mm (0 dešimtainių skaitmenų) arba m (3 dešimtainiai skaitmenys)
     
   Ifc__.Volume:
     type: IfcVolumeMeasure
@@ -17025,7 +16375,7 @@ properties:
       - 80.500
       - 0.006
     units: Real
-    descr: Gaminio tūris, m³, 3 dešimtainiai skaitmenys
+    description: Gaminio tūris, m³, 3 dešimtainiai skaitmenys
    
   Ifc__.Power:
     type: IfcPowerMeasure
@@ -17033,23 +16383,24 @@ properties:
       - 80
       - 18
     units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+    description: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
     
   Aplinkos agresyvumo klasė:
-    type: IfcPowerMeasure
+    type: IfcLabel
     examples:
-      - 80
-      - 18
+      - XC3
+      - XC6
     units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+    description: Elemento aplinkos agresyvumo klasė
     
   Aukštas:
-    type: IfcPowerMeasure
+    type: IfcLabel
     examples:
-      - 80
-      - 18
-    units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+      - '1'
+      - '2'
+      - Rūsys
+    units: String
+    description: Statinio aukštas, kuriam priskirtas elementas
     
   Ifc__.Weigth:
     type: IfcWeightMeasure
@@ -17057,37 +16408,54 @@ properties:
       - 80
       - 18
     units: Real
-    descr: Elemento svoris, kg
+    description: Elemento svoris, kg
     
   Atsparumo ugniai laipsnis:
-    type: IfcPowerMeasure
+    type: IfcLabel
     examples:
-      - 80
-      - 18
-    units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+      - I-1
+      - II
+    allowedValues:
+      - I-1
+      - I-2
+      - I-3
+      - II
+      - III
+    units: String
+    description: Statinio atsparumu ugniai laipsnis
   
   Degumo klasė:
-    type: IfcPowerMeasure
+    type: IfcLabel
     examples:
-      - 80
-      - 18
-    units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+      - A2
+      - B-s3,d0
+    units: String
+    description: Medžiagos degumo klasė
     
   Energetinė klasė:
-    type: IfcPowerMeasure
+    type: IfcLabel
     examples:
-      - 80
-      - 18
-    units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+      - A++
+      - C
+    allowedValues:
+      - A+++
+      - A++
+      - A+
+      - A
+      - B
+      - C
+      - D
+      - E
+      - F
+      - G
+    units: String
+    description: Statinio arba įrangos energetinė klasė
     
   ASSEMBLY MARK:
-    type: IfcPowerMeasure
+    type: IfcLabel
     examples:
       - 80
       - 18
-    units: Real
-    descr: Elemento projektinė galia, W. Elektriniams prietaisams - elektrinė galia, šiluminiams ir jiems prilygintims - šiluminė galia
+    units: String
+    description: Elemento žyma
   
