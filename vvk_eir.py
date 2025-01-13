@@ -39,7 +39,7 @@ def main(eir, output_flavour: str = "VVK", report_type: str = 'ids', stage:str='
                 's0':'ES MODELIAI', 's2':'PP MODELIAI','s4':'TDP MODELIAI', 
                 'properties':'Privalomų pateikti savybių ir sąrašas ir ju priskyrimas savybių rinkiniams',
                 'classification':"Klasifikatoriai",
-                'memo': 'Pastabos'})
+                'memo': 'Pastabos', 'String': 'Tekstas', 'Real':'Skaičius'})
     
     if output_flavour.upper() == 'SKST':
         report.title = "IPP GEOMETRIJA"
@@ -80,7 +80,7 @@ def main(eir, output_flavour: str = "VVK", report_type: str = 'ids', stage:str='
 
         output_classification = 'NSIK'
         report.set_column_widths({'A':4.0, 'B':2.0, 'C':2.0, 'D':2.0, 'E':2.0, 'F':2.0, 'G':5.0, 'H':3.0, 
-                                  'I':4.0, 'J':2.5, 'K':2.5, 'L':2.5, 'M':2.5, 'N':2.5, 'O':2.5, 'P':2.5,
+                                  'I':4.0, 'J':2.5, 'K':3.5, 'L':2.5, 'M':3.0, 'N':2.5, 'O':3.5, 'P':3.0,
                                   'M':4.0, 'U':4.0, 'AC':4.0, 'AK':4.0, 'AS':4.0, 'BA':4.0,
                                   'N':3.0, 'V':3.0, 'AD':3.0, 'AL':3.0, 'AT':3.0, 'BB':3.0,
                                   'O':2.2, 'W':2.2, 'AE':2.2, 'AM':2.2, 'AU':2.2, 'BC':2.2,
@@ -90,19 +90,19 @@ def main(eir, output_flavour: str = "VVK", report_type: str = 'ids', stage:str='
                                   'S':3.5, 'AA':3.5, 'AI':3.5, 'AR':3.5, 'AY':3.5, 'BG':3.5,
                                   'BH':2.5}
                                 )
-        layout.set_metas({'name':1, 'example':8, 'memo':9, 'ifcType':10, 'file':60})
+        layout.set_metas({'name':1, 'example':8, 'memo':11, 'ifcType':10, 'file':60})
         # layout.set_stages({'s0':12, 's2':20, 's3':28, 's4':36, 's5':44, 's6':52})
         
-        layout.set_metas({'nsik_name':1 ,'name':7, 'description':8, 'nsik_descr':9, 'examples':10, 'ifcType':11, 'file':21})
+        layout.set_metas({'nsik_name':1 ,'name':7, 'description':8, 'examples':9, 'ifcType':10, 'memo':11, 'file':25})
         layout.set_stages({'s3':12})
 
-        layout.set_relative_offsets({'properties': 1, 'prop_descr':2, 'prop_ifc_datatype':3, 'prop_datatype':4, 'prop_example':5, 'prop_allowed':6, 'prop_memo':7})
+        layout.set_relative_offsets({'properties': 1, 'uri': 2, 'prop_descr':3, 'prop_ifc_datatype':4, 'prop_datatype':5, 'prop_example':6, 'prop_allowed':7, 'prop_memo':8})
         # layout.set_classifications({'NSIK LF':2, 'NSIK LT':3,  'NSIK LK':4, 'NSIK B':6, 'Uniclass':7})
         layout.set_classifications({'NSIK LF':2, 'NSIK LT':3,  'NSIK LK':4, 'NSIK B':5, 'NSIK E':6})
 
         layout.set_titles({'ifcType':'IFC tipas', 'examples':'Modeliuojamų elementų pavyzdžiai', 'memo': "Pastabos", 'name': 'Pavadinimas', 'description':'Elemento aprašymas', 'nsik_descr':'Elemento aprašymas (NSIK)', 'file':'PROJEKTO DALIS', 
-                           'properties_top':'Atributai ir savybės', 'properties':'Savybių rinkinys.Pavadinimas', 'prop_descr':'Atributo ar savybės aprašymas', 'prop_allowed':'Leidžiamos reikšmės',
-                           'prop_ifc_datatype':'IFC duomenų tipas', 'prop_datatype':'Duomenų tipas', 'prop_example':"Vertės pavyzdžiai",'prop_memo':'Pastabos',
+                           'properties_top':'Atributai ir savybės', 'properties':'Pavadinimas arba \nSavybių rinkinys.Pavadinimas', 'prop_descr':'Atributo ar savybės aprašymas', 'prop_allowed':'Leidžiamos reikšmės',
+                           'prop_ifc_datatype':'IFC duomenų tipas', 'prop_datatype':'Duomenų tipas', 'prop_example':"Vertės pavyzdžiai",'prop_memo':'Pastabos', 'uri':'Nuoroda',
                            'nsik_name' : 'Komponento pavadinimas pagal NSIK klasifikatorių',
                 'NSIK LF':'Funkcinės sistemos kodas - ClassificationSystem.NSIK LF arba „NSIK LF“ klasifikatorius',
                 'NSIK LT':'Techninės sistemos kodas - ClassificationSystem.NSIK LT arba „NSIK LT“ klasifikatorius',
@@ -110,7 +110,8 @@ def main(eir, output_flavour: str = "VVK", report_type: str = 'ids', stage:str='
                 'NSIK B':'Erdvės kodas - ClassificationSystem.NSIK B arba „NSIK B“ klasifikatorius',
                 'NSIK E':'Statinio kodas - ClassificationSystem.NSIK E arba „NSIK E“ klasifikatorius',
                 's0':'Esama situacija', 's2':'PP modeliai','s3':'TP modeliai', 's4':'TDP modeliai', 
-                'classification':"Klasifikatoriai", 'LOD':"Pateikiama informacija"}
+                'classification':"Klasifikatoriai", 'LOD':"Pateikiama informacija",
+                'String': 'Tekstas', 'Real':'Skaičius'}
                 )
     
     if report_type.upper() == 'IDS':
@@ -204,7 +205,8 @@ if __name__ == "__main__":
     if len(loin) > 0:
         data['loin'] = loin['loin']
         if 'properties' in loin.keys():
-            data['properties'] = loin['properties']
+            data['project']['properties'] = loin['properties']
+            # print(F"Merging 'properties' from '{yaml_file}': {data['project']['properties'].keys()=}")
 
        
 
